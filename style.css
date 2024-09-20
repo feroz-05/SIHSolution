@@ -1,0 +1,47 @@
+
+
+main{
+    margin-left: 20px;
+}
+h1, h2, h3 {
+    color: #2c3e50;
+}
+.section {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.hidden {
+    display: none;
+}
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #2980b9;
+}
+ul, ol {
+    padding-left: 20px;
+}
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.tech-item {
+    align-items: center;
+    background-color: #1fc2a7;
+    padding: 5px 10px;
+    margin: auto;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
