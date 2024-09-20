@@ -45,3 +45,7 @@ ul, ol {
     border-radius: 15px;
     font-size: 0.9em;
 }
+
+.iframe {
+    border: none;
+}
