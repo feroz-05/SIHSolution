@@ -46,6 +46,31 @@ ul, ol {
     font-size: 0.9em;
 }
 
-.iframe {
+iframe {
     border: none;
+    width: 700px;
+    height: 390px; 
+}
+
+.img-det{
+    width: 110vh;
+}
+
+.img-sim{
+    width: 90vh;
+}
+
+@media only screen and (max-width: 767px) {
+    iframe {
+        border: none;
+        width: 320px;
+        height: 180px; 
+    }
+    .img-det{
+        width: 35vh;
+    }
+    
+    .img-sim{
+        width: 32vh;
+    }
 }
